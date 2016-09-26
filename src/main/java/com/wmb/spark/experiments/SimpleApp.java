@@ -5,12 +5,13 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.function.Function;
 
 /**
- *
- * Sample application from http://spark.apache.org/docs/2.0.0/quick-start.html
+ * This is basically the sample application found at http://spark.apache.org/docs/2.0.0/quick-start.html.
+ * It seemed like a good starting point for creating a spark development environment and to begin
+ * tinkering with the API.
  */
 public class SimpleApp {
     public static void main(String[] args) {
-        String logFile = "sampledatafile.txt"; // Should be some file on your system
+        String logFile = "data/sampledatafile.txt"; // Should be some file on your system
         SparkConf conf = new SparkConf().setAppName("Simple Application");
         JavaSparkContext sc = new JavaSparkContext(conf);
         JavaRDD<String> logData = sc.textFile(logFile).cache();
