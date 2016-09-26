@@ -35,7 +35,8 @@ example<br>
 <pre>16/09/26 13:19:48 WARN SparkConf: 
 SPARK_JAVA_OPTS was detected (set to '-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005').
 This is deprecated in Spark 1.0+.
-
+</pre>
+<pre>
 Please instead use:
  - ./spark-submit with conf/spark-defaults.conf to set defaults for an application
  - ./spark-submit with --driver-java-options to set -X options for a driver
