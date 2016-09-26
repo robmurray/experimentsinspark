@@ -27,8 +27,7 @@ example<br>
 <code>$ spark-submit --class "com.wmb.spark.experiments.SimpleApp"  --master local[4] target/experimentsonspark-1.0-SNAPSHOT.jar</code>
 
 * since suspend=y the JVM will pause until a remote process attaches. From intellij launch your newly create remote run/debug configuration
-
-<br><b>Note - there is a multitude of opportunities that come to mind to improve this process however for this first development session the above is good enough.</b>
+* Note - this process can be improved but is good enough for this first development session
 
 ### For spark + scala
 TBD
