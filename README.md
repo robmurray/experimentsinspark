@@ -29,6 +29,18 @@ example<br>
 * since suspend=y the JVM will pause until a remote process attaches. From intellij launch your newly create remote run/debug configuration
 
 <br><b>Note - there is a multitude of opportunities that come to mind to improve this process however for this first development session the above is good enough.</b>
+<br>
+####TODO
+* address 
+    16/09/26 13:19:48 WARN SparkConf: 
+    SPARK_JAVA_OPTS was detected (set to '-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005').
+    This is deprecated in Spark 1.0+.
+    Please instead use:
+     - ./spark-submit with conf/spark-defaults.conf to set defaults for an application
+     - ./spark-submit with --driver-java-options to set -X options for a driver
+     - spark.executor.extraJavaOptions to set -X options for executors
+     - SPARK_DAEMON_JAVA_OPTS to set java options for standalone daemons (master or worker)
+
 
 ### For spark + scala
 TBD
