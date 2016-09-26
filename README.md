@@ -11,15 +11,15 @@ exploratory development on Spark. Using java scala and python.
 - add the [spark install dir]/bin to your path
 
 #### Run/Debug
-For ease of use I opted for remote debugging instead of attempting a
-more complicated development configuration
+For this round of development I opted for the remote debugging approach instead of attempting some 
+more integrated development configuration. 
 
-- enable remote debugging by setting the jvm option "SPARK_JAVA_OPTS". 
+- enable remote debugging by setting the jvm option "SPARK_JAVA_OPTS". <br>
 <code>export SPARK_JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005</code>
 
-notice suspend=y. this will pause the execution util a remote process attaches to the jvm
+* notice suspend=y. this will pause the execution util a remote process attaches to the jvm
 
-- to run your app at the command line type 
-> spark-submit --class "com.wmb.spark.experiments.SimpleApp"  --master local[4] target/experimentsonspark-1.0-SNAPSHOT.jar
+- to run your app at the command line type <br>
+<code>$ spark-submit --class "com.wmb.spark.experiments.SimpleApp"  --master local[4] target/experimentsonspark-1.0-SNAPSHOT.jar</code>
 
 
