@@ -19,7 +19,15 @@ more integrated development configuration.
 
 * notice suspend=y. this will pause the execution util a remote process attaches to the jvm
 
-- to run your app at the command line type <br>
+- to run any of the applications in the project at the command line type <br>
+<code>$ spark-submit --class "<fully qualfied app name>"  --master local[4] target/experimentsonspark-1.0-SNAPSHOT.jar</code>
+
+
 <code>$ spark-submit --class "com.wmb.spark.experiments.SimpleApp"  --master local[4] target/experimentsonspark-1.0-SNAPSHOT.jar</code>
 
+### For spark + scala
+TBD
+
+### For spark + python
+TBD
 
