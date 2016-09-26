@@ -32,7 +32,7 @@ example<br>
 <br>
 ####TODO
 * address<br>
-<code>16/09/26 13:19:48 WARN SparkConf: 
+<pre>16/09/26 13:19:48 WARN SparkConf: 
 SPARK_JAVA_OPTS was detected (set to '-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005').
 This is deprecated in Spark 1.0+.
 
@@ -41,7 +41,8 @@ Please instead use:
  - ./spark-submit with --driver-java-options to set -X options for a driver
  - spark.executor.extraJavaOptions to set -X options for executors
  - SPARK_DAEMON_JAVA_OPTS to set java options for standalone daemons (master or worker)
-</code>
+</pre>
+<br>
 ### For spark + scala
 TBD
 
