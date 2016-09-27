@@ -1,0 +1,18 @@
+
+* From Intellij create a remote Run?Debug configuration using the port specified above, 5005
+* to run any of the applications in the project at the command line type <br>
+<code>$ spark-submit --class "fully qualfied app name"  --master local[4] target/jar file name.jar</code> <br>
+
+example<br>
+
+<code>$ spark-submit --class "com.wmb.spark.experiments.SimpleApp"  --master local[4] target/experimentsonspark-1.0-SNAPSHOT.jar</code>
+
+* since suspend=y the JVM will pause until a remote process attaches. From intellij launch your newly create remote run/debug configuration
+* Note - this process can be improved but is good enough for this first development session
+
+### For spark + scala
+TBD
+
+### For spark + python
+TBD
+
