@@ -43,7 +43,16 @@ example<br>
 
 
 ### For spark + scala
-TBD
+#### scala
+Install scala. I am using mac; brew is my package mananger of choice.  
+
+<code>brew install scala --with-docs</code>
+   
+Install the scala intellij Plugin. 
+   
+<code>https://www.jetbrains.com/help/idea/2016.2/creating-and-running-your-scala-application.html</code>
+ 
+
 
 ### For spark + python
 TBD
