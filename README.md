@@ -9,6 +9,7 @@ It appears development on spark will end up being a combination of working in th
 ### For spark + java
 * install intellij
 * install java 8+
+* first install spark
 * download spark the latest prebuilt version of spark (V2.0.0 at the writing of this doc)
 ** http://spark.apache.org/downloads.html **
 * add the [spark install dir]/bin to your path
@@ -45,7 +46,7 @@ example<br>
      - SPARK_DAEMON_JAVA_OPTS to set java options for standalone daemons (master or worker)
 
 
-### For spark + scala
+### Add scala to the mix
 #### scala
 Install scala. I am using mac; brew is my package mananger of choice.  
 
@@ -57,6 +58,7 @@ Install the scala intellij Plugin.
  
 
 
-### For spark + python
-TBD
+### add python
+For python development I have been using PyCharm. I will likely do the exploratory python+spark dev in a separate project.
+For now will leave this here as a place holder  
 
