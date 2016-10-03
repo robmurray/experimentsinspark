@@ -1,6 +1,8 @@
 # experimentsonspark
 exploratory development on Spark. Using java scala and python.
 
+**<i>The purpose of this project was to get a feel for setting up a spark development environment. This has been accompished. No further work will be done on this repo however I'll leave the repo up incase it is of use to others</i>**
+
 ## Initial thoughts
 It appears development on spark will end up being a combination of working in the shell (interactive mode) and in an IDE to write the application code. i.e. test out the idea in the shell then convert into app code.
 
