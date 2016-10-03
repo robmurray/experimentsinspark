@@ -1,4 +1,4 @@
-package org.apache.spark.examples
+package com.wmb.spark.experiments;
 
 /**
   * a simple app to test the scala develop environment configuration
