@@ -1,7 +1,12 @@
 # experimentsonspark
 exploratory development on Spark. Using java scala and python.
 
-**<i>The purpose of this project was to get a feel for setting up a spark development environment. This has been accompished. No further work will be done on this repo however I'll leave the repo up incase it is of use to others</i>**
+**The purpose of this project was to get a feel for setting up an environment and developing for spark. (Read - don't get too excited about the spark applications contained within. This project is about env, config, workflow, ...)
+The goal has been accompished so no further work will be done on this project however I'll leave the repo up incase it is of use to others. I initally leaned towards using Java with Spark as Java is my primary language after working with spark for a little while, I feel like Java is going against the grain a little and Scala is the way go to. Purely opinion based, only mentioning for the benefit of other Java developers who have been reluctant to ramp up on Scala :).
+I have not tried using Python on Spark yet. 
+**
+
+My interest with spark is ML applications. Inparticular SVM's and neuralnetworks.
 
 ## Initial thoughts
 It appears development on spark will end up being a combination of working in the shell (interactive mode) and in an IDE to write the application code. i.e. test out the idea in the shell then convert into app code.
